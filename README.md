@@ -1,36 +1,108 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MENSTORE Frontend
 
-## Getting Started
+Modern e-commerce frontend for a men's clothing store.
+Built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Overview
+
+This project is a fully functional **frontend UI for an online clothing store**, including:
+
+* Home page with hero section and featured products
+* Product catalog with grid layout
+* Dynamic product pages
+* Shopping cart UI
+* Checkout page
+* Responsive mobile-first design
+
+> Backend (FastAPI) is developed separately and will be integrated via API.
+
+---
+
+## 🧱 Tech Stack
+
+* **Next.js (App Router)**
+* **TypeScript**
+* **Tailwind CSS**
+* **React**
+
+---
+
+## 📁 Project Structure
+
+```
+app/
+├── page.tsx                # Home
+├── layout.tsx              # Global layout
+├── globals.css             # Global styles
+├── catalog/                # Catalog page
+├── product/[id]/           # Dynamic product page
+├── cart/                   # Cart page
+├── checkout/               # Checkout page
+
+components/
+├── Header.tsx
+├── Footer.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Clean, minimal fashion-style UI
+* Fully responsive (mobile-first)
+* Reusable layout and components
+* Dynamic routing (`/product/[id]`)
+* Ready for backend integration
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ⚙️ Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1. Clone the repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+git clone https://github.com/aslan8980/erkinsouls.git
+cd erkinsouls
+```
 
-## Deploy on Vercel
+### 2. Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Run the development server
+
+```
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🔌 Backend Integration (Coming Next)
+
+This frontend is designed to connect with a **FastAPI backend**, providing:
+
+* Product data
+* Cart management
+* Order processing
+
+---
+
+## 🧠 Future Improvements
+
+* Backend integration (FastAPI)
+* Authentication (login/account)
+* Payment integration
+* AI features (virtual try-on, recommendations)
+* Animations & UI polish
+
+
